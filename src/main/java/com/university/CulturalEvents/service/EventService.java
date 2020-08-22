@@ -48,7 +48,7 @@ List<EventDTO> DTOlist = new ArrayList<>();
 
 public String add(EventDTO eventDTO) {
 	Event e=eventRepo.findByeventid(eventDTO.getEventid());
-    if(e==null) {
+    if(e.equals(null)) {
     	Event ee =eventDTO.createEntity();
     	eventRepo.save(ee);
     	return ("added successfully");
