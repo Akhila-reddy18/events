@@ -25,7 +25,7 @@
 		 <sonar.projectKey>Akhila-reddy18_events</sonar.projectKey>
   <sonar.organization>akhila-reddy18</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.login>bf8e7e0cf79e720be12fb0b8392dcd71c6291664</sonar.login>
+		<sonar.login>48766155dd12385f3a284d24d100d2530f33fd97</sonar.login>
 	</properties>
 <dependencyManagement>
 		<dependencies>
